@@ -49,6 +49,7 @@ public class java3_p{
         System.out.println("違います");
       }
     }
+    
     System.out.println("ゲームを終了します");
   }
 }
