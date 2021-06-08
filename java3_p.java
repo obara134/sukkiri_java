@@ -18,7 +18,7 @@ public class java3_p{
     // }
     // System.out.println("ごちそうさまでした");
 
-    // 練習問題３−５
+    練習問題３−５
     // System.out.print("[メニュー]１:検索 2:登録 3:削除 4:変更");
     // int selected = new java.util.Scanner(System.in).nextInt();
     // switch (selected){
@@ -49,7 +49,7 @@ public class java3_p{
         System.out.println("違います");
       }
     }
-    
+
     System.out.println("ゲームを終了します");
   }
 }
