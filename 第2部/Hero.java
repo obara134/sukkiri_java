@@ -1,17 +1,7 @@
-public class Hero{
-  String name ;
-  int hp;
-  Sword sword;
-  public void attack(){
-    System.out.println(this.name + "は攻撃した。");
-    System.out.println("敵に５ポイントのダメージを与えた！");
-  }
-  public Hero(String name) {
-    this.hp = 100;
-    this.name = name;
-  }
-
-  public Hero() {
-    this("ダミー");
+public class Hero extends Character{
+  public void attack(Matango m) {
+    System.out.println(this.name + "の攻撃！");
+    System.out.println("敵に１０ポイントのダメージを与えた！");
+    m.hp -= 10;
   }
 }
