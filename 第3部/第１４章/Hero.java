@@ -12,7 +12,7 @@ public class Hero{
       return true;
     }
     if (o instanceof Hero){
-      Hero h = (Hero)o;
+      Hero h = (Hero)o;ううr
       if(this.name.equals(h.name)){
         return true;
       }
