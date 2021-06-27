@@ -9,6 +9,8 @@ public class Main {
       n++;
     
 
+      
+
     if (n % 15 == 0){
       System.out.println("fizz_buzz");
     }
