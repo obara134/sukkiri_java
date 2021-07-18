@@ -17,21 +17,21 @@
 
 
 // 　３章練習問題
-public class Main{
-  public static void main (String[] args){
-    int isHungry = new Random().nextInt(2);
-    String food = "うなぎ";
-    System.out.println("こんにちは");
-    if (isHungry == 0){
-      System.out.println("お腹がいっぱいです。");
-    }
-    else{
-      System.out.println("はらぺこです。");
-      System.out.println(food + "をいただきます。");
-      System.out.println("ごちそうさまでした");
-    }
-  }
-}
+// public class Main{
+//   public static void main (String[] args){
+//     int isHungry = new Random().nextInt(2);
+//     String food = "うなぎ";
+//     System.out.println("こんにちは");
+//     if (isHungry == 0){
+//       System.out.println("お腹がいっぱいです。");
+//     }
+//     else{
+//       System.out.println("はらぺこです。");
+//       System.out.println(food + "をいただきます。");
+//       System.out.println("ごちそうさまでした");
+//     }
+//   }
+// }
 // public class Main{
 //   public static void main(String [] args){
 //     System.out.print("[メニュー]１：検索　２：登録　３：削除　４：変更");
@@ -144,3 +144,12 @@ public class Main{
 //   }
 // }
 
+public class Main {
+    public static void main(String[] args) {
+        double m = new java.util.Scanner(System.in).nextInt();
+        double p = new java.util.Scanner(System.in).nextInt();
+        double q = new java.util.Scanner(System.in).nextInt();
+        double ans = (m * (100 - p) / 100) * (100 - q) / 100;
+        System.out.println(ans);
+    }
+}
